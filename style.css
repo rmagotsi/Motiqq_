@@ -1,0 +1,195 @@
+*{margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:5em;
+}
+header{
+  z-index: 99;
+}
+.slogan{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+}
+.link{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .5em
+}
+
+#nav-bar{
+  background-color: #FEF495;
+  padding: 10px 0px 10px 0px ;
+  position:fixed;
+  width: 100%;
+  top:0;
+  z-index: 4;
+}
+#nav-bar a{
+  text-decoration: none;
+  color: #00D49C;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:1.1em;
+   float: right;
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-top:5px;
+}
+a.active, a:hover{
+  background-color: white;
+  padding: 5px 0px 5px 0px;
+}
+.first{
+  background-color: #00B2C0;
+
+
+
+}
+.page-wrap{
+  height: 100vh;
+  background-color: #00B2C0;
+}
+
+.testimonial{
+    background-color: #0185B6;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    padding: 130px 20px 130px 20px;
+    font-size:1em;
+
+}
+.right{
+  position: absolute;
+  top: 50%;
+  height: 400px;
+  margin-top: -200px;
+  padding-left: 65%;
+  z-index: 1;
+}
+#left{
+  padding-left:23%;
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px;
+  z-index: 1;
+}
+form{
+  background-color: white;
+  padding: 20px 0px 80px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+
+}
+#quotes{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:1.5em;
+  text-align: center;
+}
+.arrow{
+  color: white;
+  padding-left: 50px;
+}
+#test1{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.grid{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  z-index:1;
+font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+.grid-column-one{
+  z-index: 1;
+}
+.grid-column-two{
+  z-index: 1;
+}
+.grid-column-three{
+  z-index: 1;
+}
+.check-mark1{
+  font-size: 75px;
+  color: #FF005C;
+  text-align:center;
+}
+.check-mark2{
+  font-size: 75px;
+  color: #FF005C;
+  text-align:center;
+}
+.check-mark3{
+  font-size: 75px;
+  color: #FF005C;
+  text-align:center;
+}
+.form-wrap{
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:3em;
+  color: #00D49C;
+}
+.space{
+  margin-bottom: 10px;
+}
+#submit{
+  border-radius: 5px;
+  padding: 10px 60px 10px 60px;
+  background-color: #FF005C;
+  color: white;
+  font-size: 15px;
+}
+footer{
+  background-color: #FEF495;
+  padding: 12px;
+
+}
+@media (max-width: 749px){
+  #left{
+    padding-left:45px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    top: 20%;
+  }
+  .right{
+    position: absolute;
+    top: 50%;
+    height: 300px;
+    margin-top: -100px;
+    padding-left: 25%;
+    padding-top: 70px;
+
+  }
+  .nav-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+#nav-bar a{
+  text-decoration: none;
+  color: #00D49C;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:1.1em;
+  float: none;
+  text-align: center;
+}
+#header-img{
+display: none;
+}
+}
